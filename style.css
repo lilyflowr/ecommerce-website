@@ -1,0 +1,108 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+}
+.nav-bar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.model{
+    position: relative;
+    left: 100px;
+    display: flex;
+}
+#model-pic{
+    position: absolute;
+    top: -70px;
+    left: -30px;
+    transform: scaleX(-1);
+}
+.text{
+    position: absolute;
+    left: 750px;
+}
+.newarival{
+    position: relative;
+    top: 50px;
+    padding-left: 100px;
+    font-size:25px;
+    font-weight: lighter; 
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin: 0px;
+}
+.text h1{
+
+    font-weight:bold;
+    font-size: 140px;
+    margin: 0px;
+    padding: 0px;
+}
+#you{
+    color: coral;
+    font-size: 100px;
+    text-transform: lowercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 120px;
+    padding-bottom: 0px;
+    position: absolute; 
+    left: -30px;
+    top: 300px;
+    transform: rotate(-30deg);
+  z-index: 100;
+}
+.onlineorder{
+    position: absolute;
+    top: 370px;
+    left: -100px;
+} 
+#order{
+    padding-top: 10px;
+    width:240px;
+    height: 60px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+    color: antiquewhite;
+}
+#order span{
+    position: relative;
+    left: 100px;
+}
+.onlineorder h2{
+    float: left;
+    padding-left: 30px;
+    width:80px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 70px;
+    background-color:#f1c19d;
+    border-radius: 3px;
+}
+.footer{
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 200px;
+    position: relative;
+    top: 87vh; 
+    left: 180px;
+     }
+.social i{
+   width: 300px;
+   padding-left: 20px;
+   cursor: pointer;
+    color: #f1c19d;
+}
+.social i:hover{  
+     color:green;
+ }
+ 
